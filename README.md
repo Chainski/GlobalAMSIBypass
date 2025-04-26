@@ -61,6 +61,6 @@ After execution, `AMSI` will be disabled for the current process. You can test t
 # License
 This project is licensed under the MIT License. See the [LICENSE](https://github.com/Chainski/GlobalAMSIBypass#GPL-3.0-1-ov-file) file for details.
 
-# Caution !
+# Caution 
 - Intended Use: This script is designed for educational purposes, security research, and authorized red team engagements. Unauthorized use may violate applicable laws or policies.
 - Detection Avoidance: While this bypass avoids `Add-Type` and uses stealth techniques, modern EDR solutions may still detect memory patching or suspicious PowerShell activity. Use with caution and test in a controlled environment.
