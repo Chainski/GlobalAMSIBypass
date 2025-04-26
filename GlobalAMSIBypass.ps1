@@ -5,7 +5,7 @@ function GlobalAMSIBypass {
     .DESCRIPTION
         This function modifies the AmsiScanBuffer function in amsi.dll to always
         return AMSI_RESULT_CLEAN, affecting all AMSI scanning within the current process.
-     .LINK
+    .LINK
      https://github.com/Chainski/GlobalAMSIBypass
 #>
 Write-Host "[*] Initializing global AMSI bypass via AmsiScanBuffer patch..."
