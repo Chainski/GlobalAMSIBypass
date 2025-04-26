@@ -1,4 +1,3 @@
-﻿try {$host.UI.RawUI.WindowTitle="GlobalAMSIBypass"}catch{}
 function GlobalAMSIBypass {
 <#
     .SYNOPSIS
