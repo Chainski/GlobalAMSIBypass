@@ -40,8 +40,8 @@ Lower detection footprint but less comprehensive in scope.
 # Features
 - Dynamic Function Lookup: Uses `GetProcAddress` and `GetModuleHandle` to locate `AmsiScanBuffer` dynamically, avoiding hardcoded offsets that may break across Windows versions.
 - Custom Delegate Creation: Employs Reflection.Emit to create delegate types for native function calls, without the need for `Add-Type`.
-- Memory Protection Management: Safely modifies memory protections using VirtualProtect to apply and restore patches, ensuring process stability.
-- Minimal Dependencies: Relies solely on native PowerShell and .NET reflection, requiring no external modules or libraries.
+- Memory Protection Management: Safely modifies memory protections using `VirtualProtect` to apply and restore patches, ensuring process stability.
+- Minimal Dependencies: Relies solely on native PowerShell and `.NET` reflection, requiring no external modules or libraries.
 
 # Usage
 
