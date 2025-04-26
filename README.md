@@ -54,15 +54,12 @@ Verify Bypass:After execution, `AMSI` will be disabled for the current process. 
 
 # Example Output
 
-
-# Notes
-- Intended Use: This script is designed for educational purposes, security research, and authorized red team engagements. Unauthorized use may violate applicable laws or policies.
-- Detection Avoidance: While this bypass avoids `Add-Type` and uses stealth techniques, modern EDR solutions may still detect memory patching or suspicious PowerShell activity. Use with caution and test in a controlled environment.
-- Windows Compatibility: Tested on Windows 10 and 11 with PowerShell 5.1 and 7.x. Some offsets or behaviors may vary across different Windows versions or patch levels.
-- Risks: Modifying memory in a running process carries inherent risks. Ensure you understand the implications before use.
-
 # References
 [PowerShell and the .NET AMSI Interface](https://s3cur3th1ssh1t.github.io/Powershell-and-the-.NET-AMSI-Interface)
 
 # License
 This project is licensed under the MIT License. See the [LICENSE](https://github.com/Chainski/GlobalAMSIBypass#GPL-3.0-1-ov-file) file for details.
+
+# Caution !
+- Intended Use: This script is designed for educational purposes, security research, and authorized red team engagements. Unauthorized use may violate applicable laws or policies.
+- Detection Avoidance: While this bypass avoids `Add-Type` and uses stealth techniques, modern EDR solutions may still detect memory patching or suspicious PowerShell activity. Use with caution and test in a controlled environment.
