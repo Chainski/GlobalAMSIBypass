@@ -1,13 +1,13 @@
 </h1>
 <p align= "center">
-   <img src="https://img.shields.io/github/stars/Chainski/GlobalAMSIBypass?style=flat&color=blue">
-   <img src="https://img.shields.io/github/forks/Chainski/GlobalAMSIBypass?style=flat&color=blue">
-   <img src="https://img.shields.io/github/issues/Chainski/GlobalAMSIBypass.svg?color=blue">
+   <img src="https://img.shields.io/github/stars/Chainski/GlobalAMSIBypass?style=flat&color=%23add8e6">
+   <img src="https://img.shields.io/github/forks/Chainski/GlobalAMSIBypass?style=flat&color=%23add8e6">
+   <img src="https://img.shields.io/github/issues/Chainski/GlobalAMSIBypass.svg?color=%23add8e6">
     <br>
-  <img src="https://hits.sh/github.com/Chainski/GlobalAMSIBypass.svg?label=views&color=0a7bbc">
+  <img src="https://hits.sh/github.com/Chainski/GlobalAMSIBypass.svg?label=views&color=%23add8e6">
    <br>
-   <img src="https://img.shields.io/github/last-commit/Chainski/GlobalAMSIBypass?color=blue">
-   <img src="https://img.shields.io/github/license/Chainski/GlobalAMSIBypass.svg?color=blue">
+   <img src="https://img.shields.io/github/last-commit/Chainski/GlobalAMSIBypass?color=%23add8e6">
+   <img src="https://img.shields.io/github/license/Chainski/GlobalAMSIBypass.svg?color=%23add8e6">
    <br>
 </p>
 
