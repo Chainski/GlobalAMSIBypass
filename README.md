@@ -18,7 +18,7 @@ This PowerShell script implements a global Anti-Malware Scan Interface (AMSI) by
 
 ## Why This AMSI Bypass Stands Out
 - Global Scope: Unlike local `AMSI` bypasses that only affect specific script blocks or sessions, this bypass modifies the behavior of `AmsiScanBuffer` globally within the process. Once applied, all subsequent `AMSI` scans return `AMSI_RESULT_CLEAN`, effectively disabling `AMSI` for the entire process lifecycle.
-- No `Add-Type` Usage: Many `AMSI` bypass techniques rely on `Add-Type` to compile C# code, which is a common detection vector for endpoint security solutions. This script avoids `Add-Type` entirely, using reflection and dynamic assembly creation to reduce the likelihood of detection.
+- No Add-Type Usage: Many `AMSI` bypass techniques rely on `Add-Type` to compile C# code, which is a common detection vector for endpoint security solutions. This script avoids `Add-Type` entirely, using reflection and dynamic assembly creation to reduce the likelihood of detection.
 - Low-Level Memory Manipulation: By directly patching `amsi.dll` in memory using `VirtualProtect` and custom byte patches, this method operates at a lower level than most bypasses, making it harder to detect and mitigate.
 - Stealth and Stability: The script carefully manages memory protections, ensuring the patch is applied and reverted cleanly, minimizing the risk of crashes or memory corruption.
 
