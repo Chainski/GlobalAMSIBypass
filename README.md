@@ -53,7 +53,7 @@ The script will execute the `GlobalAMSIBypass` function, patch `amsi.dll`, and d
 After execution, `AMSI` will be disabled for the current process. You can test this by running a script that would typically trigger `AMSI` (e.g., running `Invoke-Mimikatz` or other known malicious commands).
 
 ## Example Output
-![output](https://raw.githubusercontent.com/Chainski/GlobalAMSIBypass/refs/heads/main/assets/output.jpg)
+![output](https://github.com/Chainski/GlobalAMSIBypass/blob/main/output.png?raw=true)
 
 # References
 [PowerShell and the .NET AMSI Interface](https://s3cur3th1ssh1t.github.io/Powershell-and-the-.NET-AMSI-Interface)
